@@ -1,0 +1,41 @@
+name: kouple_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router:
+  flutter_riverpod:
+  flutter_svg: ^2.0.10+1
+  flutter_animate:  
+  flutter_native_splash: ^2.4.1
+  google_fonts:
+  supabase_flutter: ^2.5.11
+  flutter_dotenv: ^5.1.0
+  equatable: ^2.0.5
+  cached_network_image: ^3.4.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/images/
+    - assets/icons/
+
+flutter_native_splash:
+  image: assets/images/Groupspalsh.png
+  color: "#42a5f5"
+  android: true
+  ios: true 
+  android_12:
+    image: assets/images/Groupspalsh.png

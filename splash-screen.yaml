@@ -1,0 +1,8 @@
+flutter_native_splash:
+  image: assets/images/Kouple..png
+  color: "#42a5f5"
+  fill: true
+  android: true
+  ios: true 
+  android_12:
+    image: assets/images/Kouple..png
